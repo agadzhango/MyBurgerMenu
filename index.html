@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MyBurger</title>
+</head>
+<body>
+    <nav class="burger">
+        <button class="burger__open-button" id="button"></button>
+        <div class="burger__menu" id="nav">
+            <button class="burger__close-button" id="button2"></button>
+            <ul class="burger__ul">
+                <li><a href="#" class="burger__links" onclick="closeNav()">Главная</a></li>
+                <li><a href="#" class="burger__links" onclick="closeNav()">О нас</a></li>
+                <li><a href="#" class="burger__links" onclick="closeNav()">Услуги</a></li>
+                <li><a href="#" class="burger__links" onclick="closeNav()">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="burger__mask" id="mask"></div>
+    </nav>
+    <script src="main.js"></script>
+</body>
+</html>
